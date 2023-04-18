@@ -61,6 +61,11 @@ if ($handle) {
 
                 // Extrahiere das Wort bis zum ersten Punkt
                 $searchKeyword = substr($url, 0, strpos($url, "."));
+
+                // Falls das Wort "portal" oder "office" ist, überspringe die URL
+                if ($searchKeyword == "portal" or $searchKeyword == "office") {
+                  continue;
+                }
                 
                 // Durchlaufen jeder Zeile der CSV-Datei
                 $name = "";
