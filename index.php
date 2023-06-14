@@ -48,7 +48,7 @@ $handle = fopen($caddyfile, "r"); // Öffnet die Caddyfile im Lesemodus
 
 if ($handle) {
     while (($line = fgets($handle)) !== false) { // Zeile für Zeile durchgehen
-        if (strpos($line, "{")) { // Wenn die Zeile keine öffnende Klammer hat
+        if (strpos($line, "{")) { // Wenn die Zeile eine öffnende Klammer hat
             $url = trim(substr($line, 0, strpos($line, "{"))); // Extrahiere die URL bis zur öffnenden Klammer
             
             // Falls mehrere URLs in einer Zeile sind, extrahiere nur die erste
