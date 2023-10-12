@@ -63,7 +63,7 @@ if ($handle) {
                 $searchKeyword = substr($url, 0, strpos($url, "."));
 
                 // Falls das Wort "portal" oder "office" ist, überspringe die URL
-                if ($searchKeyword == "portal" or $searchKeyword == "office") {
+                if ($searchKeyword == "portal" or $searchKeyword == "office" or $searchKeyword == "onlyoffice") {
                   continue;
                 }
                 
