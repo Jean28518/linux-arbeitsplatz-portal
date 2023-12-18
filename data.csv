@@ -1,9 +1,10 @@
 "Rocket.Chat","Interner Chat",chat,rocketchat
-"Cloud","Dateien, Kalender, Kontakte",cloud,nextcloud
+"Nextcloud","Dateien, Kalender, Kontakte",cloud,nextcloud
 "Datenbank","Nocodb",database,db,nocodb
 "Benutzer","Passwort oder Benutzername ändern",ipa,freeipa
-"Online-Meetings","Videokonferenzen (Jitsi)",jitsi,meet
+"Jitsi","Videokonferenzen (Online Meetings)",jitsi,meet
 "ERP Next","ERP-System",erpnext,erp
 "Videoportal","Tutorial-Videos für den Linux-Arbeitsplatz",video,videoportal
 "ERP Next Test","Test-Instanz von ERP Next",erptest
 "Zentrale","Benutzereinstellungen, Systemverwaltung",central
+"Zertifikate","Zertifikate für den Linux-Arbeitsplatz",cert,certificates
