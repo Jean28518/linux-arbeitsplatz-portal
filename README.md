@@ -1,3 +1,5 @@
+# Deprecated. Replaced and enhanced by: https://www.libre-workspace.org/
+
 # linux-arbeitsplatz-portal
 Linux-Arbeitsplatz Startseite
 
